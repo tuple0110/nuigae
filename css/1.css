@@ -1,0 +1,33 @@
+header {
+  width: 100vw;
+  height: 15vh;
+  background-color: purple;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 5em;
+  margin-left: 5vw;
+}
+
+ul {
+  display: flex;
+  margin-right: 5vw;
+}
+
+ul li {
+  margin-left: 2vw;
+  transition: 0.5s;
+}
+
+ul li:hover {
+  transform: scale(1.5);
+}
+
+article {
+  overflow-y: scroll;
+  height: 85vh;
+}
