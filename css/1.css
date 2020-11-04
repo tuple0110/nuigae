@@ -1,33 +1,60 @@
+body {
+    background-color: purple;
+    color: #b78727;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Grenze Gotisch', cursive;
+    transform-style: preserve-3d;
+    perspective: 100px;
+    overflow: hidden;
+}
 header {
-  width: 100vw;
-  height: 15vh;
-  background-color: purple;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 10vh;
 }
-
-h1 {
-  font-size: 5em;
-  margin-left: 5vw;
+#logo {
+    font-size: 2em;
+    font-weight: bold;
+    flex: 2;
+    display: flex;
+    justify-content: center;
 }
-
-ul {
-  display: flex;
-  margin-right: 5vw;
+#menu {
+    display: flex;
+    justify-content: space-between;
+    flex: 8;
 }
-
-ul li {
-  margin-left: 2vw;
-  transition: 0.5s;
+#menu li:hover {
+    text-decoration: underline;
 }
-
-ul li:hover {
-  transform: scale(1.5);
+#leftMenu {
+    display: flex;
+    font-size: 1.2em;
+    font-weight: 500;
 }
-
+#leftMenu>li {
+    margin-right: 3vw;
+}
+#rightMenu {
+    margin-right: 6vw;
+}
 article {
-  overflow-y: scroll;
-  height: 85vh;
+    font-size: 13em;
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    background-color: black;
+    height: 70vh;
+    align-items: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    flex-direction: column;
+    transition: 1s;
+}
+article:hover {
+    transform: rotateX(65deg) rotateZ(10deg);
+}
+article>p {
+    font-size: 0.2em;
 }
