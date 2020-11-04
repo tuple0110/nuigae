@@ -53,7 +53,7 @@ article {
     transition: 1s;
 }
 article:hover {
-    transform: rotateX(10deg);
+    transform: rotateX(5deg);
 }
 article>p {
     font-size: 0.2em;
