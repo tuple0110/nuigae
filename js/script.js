@@ -25,5 +25,5 @@ logo.addEventListener("click", () => {
 });
 community = document.querySelector("#leftMenu>li:nth-child(2)")
 community.addEventListener("click", () => {
-    article.innerHTML = "<iframe src=`https://discord.gg/SuM3EyAJb6`></iframe>"
+    article.innerHTML = ``
 });
