@@ -53,8 +53,12 @@ article {
     transition: 1s;
 }
 article:hover {
-    transform: rotateX(30deg);
+    transform: rotateX(10deg);
 }
 article>p {
     font-size: 0.2em;
+}
+article>iframe {
+    width: 100%;
+    height: 100%;
 }
