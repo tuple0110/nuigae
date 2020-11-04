@@ -25,5 +25,5 @@ logo.addEventListener("click", () => {
 });
 community = document.querySelector("#leftMenu>li:nth-child(2)")
 community.addEventListener("click", () => {
-    article.innerHTML = ``
+    article.innerHTML = "<iframe src='https://tuple0110.github.io/nuigae/community'></iframe>"
 });
